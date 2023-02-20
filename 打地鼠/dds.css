@@ -1,0 +1,26 @@
+@charset "utf-8";
+*{
+	margin:0px;
+	padding:0px;
+	font-size:14px;
+	font-family: "宋体";	
+}
+#all{
+	background-image: url(../img/bg.jpg);
+	background-repeat: no reapeat;
+	width:1000px;
+	height:600px;
+	margin:0 auto;
+	position: relative;
+}
+#set{
+	position: absolute;
+	left:50%;
+	top:5%;
+	
+}
+#show{
+	position: absolute;
+	left:350px;
+	top:250px;
+}

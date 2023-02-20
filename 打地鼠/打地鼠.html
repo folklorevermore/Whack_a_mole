@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>打地鼠</title>
+		<style type="text/css">
+			#show img {
+				float: left;
+			}
+		</style>
+		<link href="css/dds.css" rel="stylesheet" type="text/css">
+		<script src="js/dds.js" type="text/javascript" charset="UTF-8"></script>
+	</head>
+	<body>
+		<div id="all">
+			<div id="set">
+				<form>
+					<table>
+						<tr>
+							<td>游戏时间</td>
+							<td><input type="text" id="gameTime" name="gameTime" value="1" />分钟</td>
+							<td rolspan="6" width=1px>游戏说明</td>
+						</tr>
+						<tr>
+							<td>倒计时间</td>
+							<td>
+								<div="timeOut" />
+							</td>
+						</tr>
+						<tr>
+							<td>地鼠出现间隔</td>
+							<td><input type="text" id="remainTime" name="remainTime" value="1" />秒钟</td>
+						</tr>
+						<tr>
+							<td>地鼠停留时间</td>
+							<td><input type="text" id="stayTime" name="stayTime" value="1" />秒钟</td>
+						</tr>
+						<tr>
+							<td height="50px">得分情况</td>
+							<td>
+								<div id="score"></div>
+							</td>
+						</tr>
+						<tr>
+							<td><input type="buttom" value="开始游戏" id="startBt" name="startBt" onclick="startGame()" />
+							</td>
+							<td><input type="buttom" value="结束游戏" id="endBt" name="endBt" onclick="endGame()" /></td>
+						</tr>
+					</table>
+				</form>
+			</div="set">
+			<div="show">
+				<table>
+					<tr>
+						<td><img src="img/00.jpg" height="64" width="64" onclick="hitMouse(this)" /></td>
+						<td><img src="img/00.jpg" height="64" width="64" onclick="hitMouse(this)" /></td>
+						<td><img src="img/00.jpg" height="64" width="64" onclick="hitMouse(this)" /></td>
+						<td><img src="img/00.jpg" height="64" width="64" onclick="hitMouse(this)" /></td>
+						<td><img src="img/00.jpg" height="64" width="64" onclick="hitMouse(this)" /></td>
+
+					</tr>
+					<tr>
+						<td><img src="img/00.jpg" height="64" width="64" onclick="hitMouse(this)" /></td>
+						<td><img src="img/00.jpg" height="64" width="64" onclick="hitMouse(this)" /></td>
+						<td><img src="img/00.jpg" height="64" width="64" onclick="hitMouse(this)" /></td>
+						<td><img src="img/00.jpg" height="64" width="64" onclick="hitMouse(this)" /></td>
+						<td><img src="img/00.jpg" height="64" width="64" onclick="hitMouse(this)" /></td>
+					</tr>
+					<tr>
+						<td><img src="img/00.jpg" height="64" width="64" onclick="hitMouse(this)" /></td>
+						<td><img src="img/00.jpg" height="64" width="64" onclick="hitMouse(this)" /></td>
+						<td><img src="img/00.jpg" height="64" width="64" onclick="hitMouse(this)" /></td>
+						<td><img src="img/00.jpg" height="64" width="64" onclick="hitMouse(this)" /></td>
+						<td><img src="img/00.jpg" height="64" width="64" onclick="hitMouse(this)" /></td>
+					</tr>
+					<tr>
+						<td><img src="img/00.jpg" height="64" width="64" onclick="hitMouse(this)" /></td>
+						<td><img src="img/00.jpg" height="64" width="64" onclick="hitMouse(this)" /></td>
+						<td><img src="img/00.jpg" height="64" width="64" onclick="hitMouse(this)" /></td>
+						<td><img src="img/00.jpg" height="64" width="64" onclick="hitMouse(this)" /></td>
+						<td><img src="img/00.jpg" height="64" width="64" onclick="hitMouse(this)" /></td>
+					</tr>
+					<tr>
+						<td><img src="img/00.jpg" height="64" width="64" onclick="hitMouse(this)" /></td>
+						<td><img src="img/00.jpg" height="64" width="64" onclick="hitMouse(this)" /></td>
+						<td><img src="img/00.jpg" height="64" width="64" onclick="hitMouse(this)" /></td>
+						<td><img src="img/00.jpg" height="64" width="64" onclick="hitMouse(this)" /></td>
+						<td><img src="img/00.jpg" height="64" width="64" onclick="hitMouse(this)" /></td>
+					</tr>
+				</table>
+			</div="show">
+		</div>
+	</body>
+</html>
